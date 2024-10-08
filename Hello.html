@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> JavaScript</title>
+<script language ="javascript">
+var name;
+
+var cost1 = parseInt(document.f1.n1.value);
+document.writeln("<font color='blue'>welcome\n<u>to</u></font>");
+window.alert("Hello\n to Game King");
+name = window.prompt("Enter your Name ","Name");
+document.writeln(name+" King");
+</script>
+
+<script src="jquery-2.1.1.min.js"></script>
+<script>
+$(document).ready(function()
+{
+$("#up").click(function()
+{
+$("#div1").animate(
+{
+top:'+=20px',
+});
+});
+});
+
+$(document).ready(function()
+{
+$("#left").click(function()
+{
+$("#div1").animate(
+{
+left:'+=20px',
+});
+});
+});
+
+
+
+
+
+</script>
+</head>
+<body>
+<button id="up"> start animation </button>
+<button id="left"> left </button>
+<button id="down"> Dowm </button>
+<button id="right"> start animation </button>
+<div  id="div1" style="position:absolute; height:300px; width:300px;">
+<img src="q1.jpg" height="300px" width="300px">
+</div>
+
+<div  id="div2" style="position:absolute; height:300px; width:300px;">
+<img src="q2.jpg" height="300px" width="300px">
+</div>
+
+</body>
+</html>

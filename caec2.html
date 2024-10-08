@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>cases2/title>
+
+<script language="javascript">
+var seconds= 0;
+var min= 0;
+
+function startTime()
+{
+window.setInterval("updateTime()", 1000);
+window.setInterval("updateTime1()", 60000);
+}
+function updateTime()
+{
+seconds = seconds+1;
+if (seconds<60)
+document.getElementById( "soFar" ).innerHTML=seconds;
+else 
+seconds =0;
+}
+function updateTime1()
+{
+
+++min;
+document.getElementById( "sFar" ).innerHTML=min;
+
+}
+</script>
+
+
+
+
+</head>
+<body  background="ca.jpg" ALIGN="CENTER">
+
+<TABLE align="left" height="10%" WIDTH = "60%">
+	<CAPTION><p><h3>cases 2</h3></p></CAPTION>
+	
+	
+	   <TR>
+		<TH><img src="39357.jpg" width="300px"height="100px" border="5" title="logo"></TH>
+		<TH><p align=center><font color="white" size="24">KING</font></p></TH>
+		<TH><a href="KING1.html">Go Back</a></TH>
+		
+	   </TR>
+	
+
+     </TABLE>
+
+ <br><br><br><br><br><br><br><br><br>
+  
+ <TABLE align="center"  height="40%" WIDTH = "40%">
+	 <tr>
+ <th bgcolor="red"><body onLoad="startTime()">
+<p>Tiam is start :) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<strong id ="soFar">0</strong>
+:
+<strong id ="sFar">0</strong></p></th></tr>
+	<TR>
+		<TH><img src="35544783_1815876778478837_8647142443986190336_n.jpg" width="400px"height="400px" border="5" title="logo"></TH>	
+	</TR>
+	<br>
+	<TR>
+		<TH><p><font color="white"><h2>What is the best move for White?</h2></p></font></TH>
+	</TR>
+
+     </TABLE>
+	 
+<P><h3><font color="white">Answer:</h3></font>
+<TEXTAREA NAME="Comment" ROWS="7" COLS="60" >
+Enter Your Answer.
+
+</TEXTAREA>
+</P>
+
+
+
+</body>
+</html>
+

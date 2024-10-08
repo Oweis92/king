@@ -1,0 +1,56 @@
+<html>
+<head>
+<script src="jquery-2.1.1.min.js"></script>
+
+<script>
+
+$(document).ready(function()
+{
+$("button").click(function()
+{
+$("#div1").fadeToggle();
+$("#div2").fadeToggle(2000);
+$("#div3").fadeToggle(3000);
+$("#hh").fadeToggle(4000);
+
+});
+});
+
+</script>
+
+
+
+</head>
+<body>
+
+<button> start animation </button>
+<table border ="5" background="black">
+<tr>
+<th>
+<div  id="div1" style="height:100px;width:100px ;background-color:black;">
+</div>
+</th>
+<th></th>
+</tr>
+
+<tr>
+<td>
+<div  id="div2" style="height:100px;width:100px ;background-color:white;">
+</div>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<div  id="div3" style="height:100px;width:100px ;background-color:black;">
+</div>
+</td>
+
+<td>
+<img id="hh"  src="h1.jpg" height="100px" width="100px" ></img>
+</tr>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+<head>
+<script src="jquery-2.1.1.min.js"></script>
+
+<script>
+
+$(document).ready(function()
+{
+$("button").click(function()
+{
+$("#div1").animate(
+{
+left:'250px',
+
+});
+});
+});
+
+</script>
+
+
+
+</head>
+<body>
+
+<button> start animation </button>
+
+<p>hhgjbh jhhg bj kjjnnnnnnnnn h </p>
+
+<div  id="div1" style="position:absolute; height:300px; width:300px;">
+<table border="5" height="300px" width="300px" >
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+
+<tr>
+<td>a</td>
+<td>b</td>
+</tr>
+
+<tr>
+<td>c</td>
+<td>d</td>
+</tr>
+
+<tr>
+<td>e</td>
+<td>f</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
